@@ -39,7 +39,7 @@ Built for fast local experimentation with **FastAPI + FAISS + SentenceTransforme
 
 > Add your screenshots after deployment/testing.
 
-- `![AI Burger Assistant UI](./docs/screenshots/UI.png)`
+- `![AI Burger Assistant UI](docs/screenshots/UI.png)`
 
 ---
 
