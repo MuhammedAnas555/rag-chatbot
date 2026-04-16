@@ -39,9 +39,7 @@ Built for fast local experimentation with **FastAPI + FAISS + SentenceTransforme
 
 > Add your screenshots after deployment/testing.
 
-- `![Chat UI](./docs/screenshots/chat-ui.png)`
-- `![Recommendation Example](./docs/screenshots/recommendation.png)`
-- `![Billing Example](./docs/screenshots/billing.png)`
+- `![AI Burger Assistant UI](./docs/screenshots/UI.png)`
 
 ---
 
