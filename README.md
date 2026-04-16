@@ -12,7 +12,7 @@ Designed for fast local experimentation using **FastAPI + FAISS + SentenceTransf
 
 - Chat with Burger Lab PDF knowledge base using Retrieval-Augmented Generation (RAG)
 - Smart food recommendations based on ingredient-style prompts (e.g., beef, tomato)
-- Rule-based billing with per-item tax calculation
+- Accurate billing with per-item tax calculation
 - Cheapest item detection
 - Menu availability detection with RAG fallback
 - Multi-PDF vector search support
