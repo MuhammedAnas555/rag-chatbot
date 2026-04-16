@@ -178,7 +178,6 @@ rag/
 
 ## Author
 
-
 **Muhammed Anas K**  
-AI Burger Assistant (RAG Chatbot)  
-GitHub: https://github.com/MuhammedAnas555
+- GitHub: https://github.com/MuhammedAnas555
+- Project: AI Burger Assistant (RAG Chatbot)
