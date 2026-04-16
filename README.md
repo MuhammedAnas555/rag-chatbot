@@ -1,8 +1,10 @@
 # AI Burger Assistant (RAG Chatbot)
 
+> 💡 This project demonstrates how to build a real-world AI assistant for restaurant websites using Retrieval-Augmented Generation (RAG), combining structured rules (billing) with semantic search (menu understanding).
+
 A modern full-stack, local-first RAG chatbot that answers questions from Burger Lab menu PDFs and supports smart menu operations like recommendations, billing, and item lookup.
 
-Built for fast local experimentation with **FastAPI + FAISS + SentenceTransformers + Ollama (phi3)** on the backend and a **React + Vite + TailwindCSS** chat UI on the frontend.
+Designed for fast local experimentation using **FastAPI + FAISS + SentenceTransformers + Ollama (phi3)** on the backend and a **React + Vite + TailwindCSS** chat UI on the frontend.
 
 ---
 
@@ -16,6 +18,15 @@ Built for fast local experimentation with **FastAPI + FAISS + SentenceTransforme
 - Multi-PDF vector search support
 - ChatGPT-style frontend experience
 - Fully local runtime using Ollama
+
+---
+## How It Works
+
+1. Menu PDFs are processed into chunks
+2. Text is converted into embeddings using SentenceTransformers
+3. FAISS stores vectors for fast similarity search
+4. User queries are matched against relevant menu content
+5. Ollama (phi3) generates final responses using context
 
 ---
 
@@ -170,4 +181,4 @@ rag/
 
 **Muhammed Anas K**  
 AI Burger Assistant (RAG Chatbot)  
-GitHub: [https://github.com/<your-username>](https://github.com/MuhammedAnas555)
+GitHub: https://github.com/MuhammedAnas555
