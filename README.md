@@ -1,52 +1,49 @@
-# AI Burger Assistant (RAG Chatbot)
+# AI Assistant (RAG Chatbot)
 
-> 💡 This project demonstrates how to build a real-world AI assistant for restaurant websites using Retrieval-Augmented Generation (RAG), combining structured rules (billing) with semantic search (menu understanding).
+> 💡 This project demonstrates how to build a real-world AI assistant using Retrieval-Augmented Generation (RAG), combining semantic search with intelligent response generation.
 
-A modern full-stack, local-first RAG chatbot that answers questions from Burger Lab menu PDFs and supports smart menu operations like recommendations, billing, and item lookup.
+A modern full-stack, local-first RAG chatbot that answers questions from custom document sources (PDFs) and supports smart operations such as recommendations, information retrieval, and contextual responses.
 
 Designed for fast local experimentation using **FastAPI + FAISS + SentenceTransformers + Ollama (phi3)** on the backend and a **React + Vite + TailwindCSS** chat UI on the frontend.
 
 ---
 
-## Features
+## 🚀 Features
 
-- Chat with Burger Lab PDF knowledge base using Retrieval-Augmented Generation (RAG)
-- Smart food recommendations based on ingredient-style prompts (e.g., beef, tomato)
-- Accurate billing with per-item tax calculation
-- Cheapest item detection
-- Menu availability detection with RAG fallback
-- Multi-PDF vector search support
-- ChatGPT-style frontend experience
-- Fully local runtime using Ollama
-
----
-## How It Works
-
-1. Menu PDFs are processed into chunks
-2. Text is converted into embeddings using SentenceTransformers
-3. FAISS stores vectors for fast similarity search
-4. User queries are matched against relevant menu content
-5. Ollama (phi3) generates final responses using context
+- Chat with custom document knowledge base using Retrieval-Augmented Generation (RAG)
+- Smart recommendations based on user intent (keywords, preferences)
+- Context-aware answers generated from relevant document chunks
+- Information lookup and summarization
+- Multi-document (PDF) vector search support
+- ChatGPT-style interactive UI
+- Fully local AI runtime using Ollama
 
 ---
+## 🧠 How It Works
 
-## Tech Stack
+1. Documents (PDFs) are processed into smaller chunks  
+2. Text is converted into embeddings using SentenceTransformers  
+3. FAISS stores embeddings for fast similarity search  
+4. User queries are matched with relevant document chunks  
+5. Ollama (phi3) generates final responses using retrieved context  
 
-**Backend**
+---
+
+## 🛠️ Tech Stack
+
+### Backend
 - Python
 - FastAPI
 - FAISS
 - SentenceTransformers (`all-MiniLM-L6-v2`)
 - Ollama (`phi3:latest`)
 
-**Frontend**
+### Frontend
 - React
 - Vite
 - TailwindCSS
 
 ---
-
-## Screenshots
 
 <p align="center">
   <img src="docs/screenshots/UI.png" width="800"/>
@@ -54,7 +51,7 @@ Designed for fast local experimentation using **FastAPI + FAISS + SentenceTransf
 
 ---
 
-## Installation
+## ⚙️ Installation
 
 ### 1) Clone the repository
 
@@ -83,7 +80,7 @@ npm install
 
 ---
 
-## Run Ollama (Local LLM)
+## 🤖 Run Ollama (Local LLM)
 
 Make sure Ollama is installed and running.
 
@@ -105,7 +102,7 @@ Backend expects Ollama at:
 
 ---
 
-## Run the Project
+## ▶️ Run the Project
 
 ### Terminal 1: Backend API
 
@@ -126,7 +123,7 @@ Open the frontend URL shown by Vite (usually `http://localhost:5173`).
 
 ---
 
-## Example Questions to Try
+## 💬 Example Queries
 
 - "What burgers contain beef and tomato?"
 - "Suggest a burger if I like truffle flavor."
@@ -138,7 +135,7 @@ Open the frontend URL shown by Vite (usually `http://localhost:5173`).
 
 ---
 
-## Folder Structure
+## 📁 Project Structure
 
 ```text
 rag/
@@ -165,7 +162,7 @@ rag/
 
 ---
 
-## Future Improvements
+## 🔮 Future Improvements
 
 - Add authentication and per-user chat history
 - Stream token-by-token responses from backend to frontend
@@ -176,8 +173,8 @@ rag/
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **Muhammed Anas K**  
 - GitHub: https://github.com/MuhammedAnas555
-- Project: AI Burger Assistant (RAG Chatbot)
+
