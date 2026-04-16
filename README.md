@@ -48,8 +48,8 @@ Built for fast local experimentation with **FastAPI + FAISS + SentenceTransforme
 ### 1) Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/MuhammedAnas555/rag-chatbot.git
+cd rag-chatbot
 ```
 
 ### 2) Backend setup (FastAPI + RAG)
